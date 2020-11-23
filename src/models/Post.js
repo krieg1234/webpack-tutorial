@@ -3,7 +3,7 @@ export default class Post {
     this.title = title;
     this.date = new Date();
     this.img = img
-  };
+  }
 
   toString() {
     return JSON.stringify({
